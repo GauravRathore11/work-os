@@ -151,12 +151,20 @@ only placeholder keys — it is the documentation of which settings exist.
 
 ## Documentation
 
+**Start here → [`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md)** — current status, architecture
+invariants, decisions and their reasoning, and what the next iteration covers.
+
 Every iteration ships a document at `docs/NN-topic.md` containing: what we are building, why,
 the concepts explained before use, an architecture diagram, the request/response flow, the
 manual steps you must perform yourself, the implementation, security considerations, the
 testing strategy, and a summary of what you learned.
 
-Start with [`docs/00-roadmap.md`](docs/00-roadmap.md).
+| Document | Contents |
+| --- | --- |
+| [`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md) | Session orientation, decisions, progress log |
+| [`AGENTS.md`](AGENTS.md) | Pointer + working agreements for AI assistants |
+| [`docs/00-roadmap.md`](docs/00-roadmap.md) | All 24 iterations and their dependencies |
+| [`docs/01-project-foundation.md`](docs/01-project-foundation.md) | Iteration 01 — foundation, plus a debugging write-up |
 
 ---
 
