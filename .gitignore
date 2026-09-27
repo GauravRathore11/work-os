@@ -1,0 +1,35 @@
+# ---- Secrets -------------------------------------------------------------
+# Real local config. Never commit this.
+.env
+.env.*
+!.env.example
+
+# ---- Python --------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ---- Node / Next.js ------------------------------------------------------
+node_modules/
+.next/
+out/
+npm-debug.log*
+.pnpm-store/
+
+# ---- Editors / OS --------------------------------------------------------
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# ---- Local data ----------------------------------------------------------
+*.sqlite3
+*.db
+uploads/
